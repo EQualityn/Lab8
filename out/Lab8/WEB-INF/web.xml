@@ -11,7 +11,7 @@
     <servlet>
         <display-name>LoginServlet</display-name>
         <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>bsu.rfe.Kalitin.lab8.servlets.LoginServlet</servlet-class>
+        <servlet-class>bsu.rfe.Buben.lab8.servlets.LoginServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
@@ -21,7 +21,7 @@
     <servlet>
         <display-name>Login_Servlet</display-name>
         <servlet-name>Login_Servlet</servlet-name>
-        <servlet-class>bsu.rfe.Kalitin.lab8.servlets.LoginServlet</servlet-class>
+        <servlet-class>bsu.rfe.Buben.lab8.servlets.LoginServlet</servlet-class>
         <init-param>
             <description>/login.do</description>
             <param-name>SESSION_TIMEOUT</param-name>
@@ -36,7 +36,7 @@
     <servlet>
         <display-name>LogoutServlet</display-name>
         <servlet-name>LogoutServlet</servlet-name>
-        <servlet-class>bsu.rfe.Kalitin.lab8.servlets.LogoutServlet</servlet-class>
+        <servlet-class>bsu.rfe.Buben.lab8.servlets.LogoutServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>LogoutServlet</servlet-name>
@@ -46,7 +46,7 @@
     <servlet>
         <display-name>login.do</display-name>
         <servlet-name>login.do</servlet-name>
-        <servlet-class>bsu.rfe.Kalitin.lab8.servlets.LoginServlet</servlet-class>
+        <servlet-class>bsu.rfe.Buben.lab8.servlets.LoginServlet</servlet-class>
         <init-param>
             <param-name>SESSION_TIMEOUT</param-name>
             <param-value>3600</param-value>
@@ -60,7 +60,7 @@
     <servlet>
         <display-name>MessageListServlet</display-name>
         <servlet-name>MessageListServlet</servlet-name>
-        <servlet-class>bsu.rfe.Kalitin.lab8.servlets.MessageListServlet</servlet-class>
+        <servlet-class>bsu.rfe.Buben.lab8.servlets.MessageListServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>MessageListServlet</servlet-name>
@@ -70,7 +70,7 @@
     <servlet>
         <display-name>NewMessageServlet</display-name>
         <servlet-name>NewMessageServlet</servlet-name>
-        <servlet-class>bsu.rfe.Kalitin.lab8.servlets.NewMessageServlet</servlet-class>
+        <servlet-class>bsu.rfe.Buben.lab8.servlets.NewMessageServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>NewMessageServlet</servlet-name>
